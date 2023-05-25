@@ -34,7 +34,11 @@ body {
 }
 
 .py-20 {
-  padding: 20px 0;
+  padding: 1.25rem 0;
+}
+
+.my-4-5 {
+  margin: 2.75rem 0;
 }
 
 @media screen and (min-width: 992px) {
@@ -42,6 +46,23 @@ body {
     margin-left: 115px;
   }
 }
+.fs-58 {
+  font-size: 58px !important;
+}
+
+.column-gap-34 {
+  -moz-column-gap: 2.1rem;
+       column-gap: 2.1rem;
+}
+
+.w-30 {
+  width: 1.9rem;
+}
+
+.h-870 {
+  height: 870px;
+}
+
 .btn-primary {
   font-size: 14px !important;
   font-weight: 700 !important;

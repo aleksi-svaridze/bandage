@@ -2,9 +2,13 @@
 @import './partials/vars';
 @import './partials/root';
 
-@import './partials/utilities/colors';
+@import './partials/utilities/colours';
 @import './partials/utilities/spacing';
+@import './partials/utilities/fonts';
+@import './partials/utilities/flex';
+@import './partials/utilities/sizing';
 
 @import './partials/components/btns';
 
 @import './partials/layout/navbar';
+@import './partials/layout/hero';
