@@ -29,12 +29,27 @@ body {
   background-color: #737373 !important;
 }
 
+.ms-115 {
+  margin-left: 0;
+}
+
+.py-20 {
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .ms-115 {
+    margin-left: 115px;
+  }
+}
 .btn-primary {
   font-size: 14px !important;
   font-weight: 700 !important;
   line-height: 22px !important;
   letter-spacing: 0.2px !important;
   border-radius: 5px !important;
+  height: 52px;
+  width: 214px;
 }
 
 .navbar-brand {
