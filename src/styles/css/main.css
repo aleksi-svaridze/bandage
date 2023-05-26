@@ -41,9 +41,16 @@ body {
   margin: 1.5rem 0;
 }
 
+.mt-120 {
+  margin-top: 60px;
+}
+
 @media screen and (min-width: 992px) {
   .ms-115 {
     margin-left: 115px;
+  }
+  .mt-120 {
+    margin-top: 120px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -52,17 +59,36 @@ body {
   }
 }
 .fs-58 {
-  font-size: 38px !important;
+  font-size: 38px;
+}
+
+.fs-50 {
+  font-size: 20px;
+}
+
+.fs-14 {
+  font-size: 0.9rem;
 }
 
 @media screen and (min-width: 576px) {
   .fs-58 {
-    font-size: 48px !important;
+    font-size: 48px;
+  }
+  .fs-50 {
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 768px) {
   .fs-58 {
-    font-size: 58px !important;
+    font-size: 58px;
+  }
+  .fs-50 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .fs-50 {
+    font-size: 50px;
   }
 }
 .column-gap-34 {

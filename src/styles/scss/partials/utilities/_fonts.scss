@@ -1,15 +1,30 @@
 .fs-58 {
-    font-size: 38px !important;
+    font-size: 38px;
 }
-
+.fs-50 {
+    font-size: 20px;
+}
+.fs-14 {
+    font-size: .9rem; 
+}
 @media screen and (min-width: 576px) {
     .fs-58 {
-        font-size: 48px !important;
+        font-size: 48px;
+    }
+    .fs-50 {
+        font-size: 30px;
     }
 }
-
 @media screen and (min-width: 768px) {
     .fs-58 {
-        font-size: 58px !important;
+        font-size: 58px;
+    }
+    .fs-50 {
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .fs-50 {
+        font-size: 50px;
     }
 }

@@ -7,10 +7,16 @@
 .my-4-5 {
     margin: 1.5rem 0;
 }
+.mt-120 {
+    margin-top: 60px;
+}
 
 @media screen and (min-width: 992px) {
     .ms-115 {
         margin-left: 115px;
+    }
+    .mt-120 {
+        margin-top: 120px;
     }
 }
 
