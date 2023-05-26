@@ -10,6 +10,9 @@
 .mt-120 {
     margin-top: 60px;
 }
+.py-80 {
+    padding: 20px 0 25px;
+}
 
 @media screen and (min-width: 992px) {
     .ms-115 {
@@ -18,10 +21,16 @@
     .mt-120 {
         margin-top: 120px;
     }
+    .py-80 {
+        padding: 60px 0 65px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .my-4-5 {
         margin: 2.75rem 0;
+    }
+    .py-80 {
+        padding: 80px 0 85px;
     }
 }
