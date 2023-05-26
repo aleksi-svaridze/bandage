@@ -5,10 +5,17 @@
     padding: 1.25rem 0;
 }
 .my-4-5 {
-    margin: 2.75rem 0;
+    margin: 1.5rem 0;
 }
+
 @media screen and (min-width: 992px) {
     .ms-115 {
         margin-left: 115px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .my-4-5 {
+        margin: 2.75rem 0;
     }
 }
