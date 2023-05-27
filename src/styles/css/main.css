@@ -17,6 +17,10 @@ body {
   color: #737373 !important;
 }
 
+.text-white-dark {
+  color: #FAFAFA !important;
+}
+
 .bg-blue-dark {
   background-color: #252B42 !important;
 }
@@ -27,6 +31,10 @@ body {
 
 .bg-gray {
   background-color: #737373 !important;
+}
+
+.bg-white-dark {
+  background-color: #FAFAFA !important;
 }
 
 .ms-115 {

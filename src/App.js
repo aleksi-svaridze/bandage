@@ -12,9 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Contact />
-      <div className='socials pt-80'>
-        <Socials />
-      </div>
+      <Socials />
       <Divider />
       <Footer />
       <Copyright />
