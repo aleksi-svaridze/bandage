@@ -6,7 +6,7 @@ import Socials from './components/Socials';
 import Divider from './components/Divider';
 import Copyright from './components/Copyright';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
