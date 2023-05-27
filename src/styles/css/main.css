@@ -60,7 +60,8 @@ body {
 }
 
 .py-20 {
-  padding: 1.25rem 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .ps-20 {
@@ -72,7 +73,8 @@ body {
 }
 
 .my-4-5 {
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mb-20 {
@@ -106,7 +108,8 @@ body {
 }
 
 .py-80 {
-  padding: 20px 0 25px;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 @media screen and (min-width: 992px) {
@@ -117,7 +120,8 @@ body {
     margin-top: 120px;
   }
   .py-80 {
-    padding: 60px 0 65px;
+    padding-top: 60px;
+    padding-bottom: 65px;
   }
   .me-70 {
     margin-right: 70px;
@@ -125,10 +129,12 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .my-4-5 {
-    margin: 2.75rem 0;
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
   }
   .py-80 {
-    padding: 80px 0 85px;
+    padding-top: 80px;
+    padding-bottom: 85px;
   }
 }
 .fs-58 {
