@@ -1,6 +1,10 @@
 .border-blue-light {
-    border-color: $color-blue-light;
+    border-color: $color-blue-light !important;
 }
 .border-gray-light {
-    border-color: $color-gray-light;
+    border-color: $color-gray-light !important;
+}
+
+.border-radius-5 {
+    border-radius: 5px !important;
 }

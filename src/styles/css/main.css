@@ -5,6 +5,16 @@ body {
   color: #252B42;
 }
 
+::-moz-placeholder {
+  color: #737373 !important;
+  font-size: 14px;
+}
+
+::placeholder {
+  color: #737373 !important;
+  font-size: 14px;
+}
+
 .text-blue-dark {
   color: #252B42 !important;
 }
@@ -19,6 +29,10 @@ body {
 
 .text-white-dark {
   color: #FAFAFA !important;
+}
+
+.text-gray-light {
+  color: #E6E6E6 !important;
 }
 
 .bg-blue-dark {
@@ -37,12 +51,24 @@ body {
   background-color: #FAFAFA !important;
 }
 
+.bg-gray-light {
+  background-color: #E6E6E6 !important;
+}
+
 .ms-115 {
   margin-left: 0;
 }
 
 .py-20 {
   padding: 1.25rem 0;
+}
+
+.ps-20 {
+  padding-left: 20px;
+}
+
+.pe-137 {
+  padding-right: 137px;
 }
 
 .my-4-5 {
@@ -58,12 +84,21 @@ body {
   margin-bottom: 55px;
 }
 
+.me-70 {
+  margin-right: 0px;
+}
+
 .mt-50 {
   margin-top: 50px;
 }
 
 .pt-80 {
   padding-top: 80px;
+}
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .mt-120 {
@@ -84,6 +119,9 @@ body {
   .py-80 {
     padding: 60px 0 65px;
   }
+  .me-70 {
+    margin-right: 70px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .my-4-5 {
@@ -99,6 +137,10 @@ body {
 
 .fs-50 {
   font-size: 20px;
+}
+
+.fs-12 {
+  font-size: 12px;
 }
 
 .fs-14 {
@@ -150,12 +192,20 @@ body {
   width: 80%;
 }
 
+.h-58 {
+  height: 58px;
+}
+
 .border-blue-light {
-  border-color: #23A6F0;
+  border-color: #23A6F0 !important;
 }
 
 .border-gray-light {
-  border-color: #E6E6E6;
+  border-color: #E6E6E6 !important;
+}
+
+.border-radius-5 {
+  border-radius: 5px !important;
 }
 
 .btn-primary {
@@ -183,6 +233,14 @@ body {
   width: 193px;
   height: 54px;
   border-radius: 37px;
+}
+
+.btn-submit {
+  width: 117px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  border-radius: 0px 5px 5px 0px;
 }
 
 .card {

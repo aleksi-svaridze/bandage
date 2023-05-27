@@ -7,7 +7,7 @@ const Socials = () => {
         <div className='socials pt-80'>
             <div className='container d-flex justify-content-between align-items-center my-55'>
                 <p className='text-capitalize fs-5 m-0'>bandage</p>
-                <div className='d-flex column-gap-3 align-items-center'>
+                <div className='d-flex column-gap-3 align-items-center me-70'>
                     <a href="/">
                         <img src={FacebookBlue} className='w-24' alt="" />
                     </a>

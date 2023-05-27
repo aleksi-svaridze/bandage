@@ -3,3 +3,8 @@ body {
     font-weight: 700;
     color: $color-blue-dark;
 }
+
+::placeholder {
+    color: $color-gray !important;
+    font-size: 14px;
+}

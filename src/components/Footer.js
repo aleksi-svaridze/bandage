@@ -9,11 +9,11 @@ const Footer = () => {
         {id: 4, title: 'Resources', link1: 'IOS & Android', link2: 'Watch a Demo', link3: 'Customers', link4: 'API'},
     ])
     return (
-        <footer className="footer mt-50">
+        <footer className="footer py-50">
             <div className="container">
-                <div className="row">
+                <div className="row gy-3">
                     {   footerData.map(data => (
-                        <div className="col-12 col-sm-6 col-xl-2" key={data.id}>
+                        <div className="col-12 col-sm-6 col-md-3 col-xl-2" key={data.id}>
                             <div>
                                 <h3 className="fw-bold fs-6 mb-20">{data.title}</h3>
                                 <a href="/" className="fs-14 text-gray d-block text-decoration-none mb-2">{data.link1}</a>
@@ -25,7 +25,18 @@ const Footer = () => {
                     ))
                     }
 
-                    <div className="col-12 col-md-12 col-xl-4">4</div>
+                    <div className="col-12 col-md-12 col-xl-4">
+                        <div>
+                            <h3 className="fw-bold fs-6 mb-20">Get In Touch</h3>
+
+                            <form className="bg-gray-light position-relative border-radius-5">
+                                <input type="email" placeholder="Your Email" className="form-control bg-gray-light h-58 ps-20 pe-137 text-gray fs-14 fw-normal" />
+                                <button type="submit" className="text-white fs-14 border-1 border-gray-light bg-blue-light btn position-absolute top-0 end-0 btn-submit h-58 text-capitalize">subscribe</button>
+                            </form>
+                            <p className="fs-12 text-gray fw-normal mb-0 mt-2">Lore imp sum dolor Amit</p>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
